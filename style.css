@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url(./assets/Fundo.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #121214;
+  font-family: "Inter", sans-serif;
+  line-height: 160%;
+  padding-bottom: 1800px;
+}
+
+header div{
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+
+ 
+  padding: -1px;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  width: 90px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
+}
+
+img {
+  border-radius: 8px;
+}
+
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+section {
+  color: white;
+  padding-top: 5px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+}
+
+section div{
+  background-color: #2a2634;
+  padding: 32px;
+  padding-top: 24px;
+}
+
+section h2 {
+  letter-spacing: -0.47px;
+}
+
+section p {
+  letter-spacing: -0.18px;
+  color: #a1a1aa;
+}
+
+.game,
+.canal,
+.social {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.game-list img {
+  width: 90px;
+}
+
+.channel-list img {
+  border-radius: 50%;
+  width: 70px;
+  border: 2px solid #443e54;
+}
